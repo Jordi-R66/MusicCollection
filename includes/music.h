@@ -12,6 +12,6 @@ typedef struct {
 	string title;
 	Date releaseDate;
 	Time duration;
-	Artist* artists[];
+	void** artists;
 } Music;
 #pragma pack()
