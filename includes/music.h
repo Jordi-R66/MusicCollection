@@ -14,3 +14,4 @@ typedef struct {
 	Time duration;
 	Artist* artists[];
 } Music;
+#pragma pack()
